@@ -13,4 +13,7 @@ This application comes with the unit tests.
 
 To run the tests do:
 
-```docker-compose run --rm example py.test instance/tests.py --cov=instance```
+```docker-compose run --rm application py.test instance/tests.py --cov=instance --asyncio-mode=auto```
+
+or
+```pytest instance/tests.py --cov=instance```
