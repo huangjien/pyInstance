@@ -8,6 +8,10 @@ Run the docker-compose environment:
 
 ```docker-compose up```
 
+or after start redis, run
+
+```uvicorn instance.application:app --host 0.0.0.0```
+
 ## Test
 This application comes with the unit tests.
 
